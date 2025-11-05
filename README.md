@@ -1,5 +1,23 @@
-#Week 2
+# Waste Classification Using CNN
 
-In Week 2, I built and trained the Convolutional Neural Network (CNN) model using the dataset from Week 1. The data was preprocessed through image resizing, normalization, and augmentation to improve performance. The model was implemented using Python with TensorFlow/Keras in Google Colab to classify waste images into five categories — plastic, paper, metal, glass, and organic. I fine-tuned the model parameters and evaluated its accuracy to ensure better classification results.
+This project implements a Convolutional Neural Network (CNN) model to classify waste images into 10 categories. The goal is to assist automated waste segregation systems with image-based classification.
 
-This week marks the model development phase, progressing toward a complete AI-based waste segregation system that supports recycling and promotes environmental sustainability.
+## Project Summary
+
+The model is trained on the "Garbage Classification" dataset consisting of 19,532 images grouped into the categories listed below:
+
+- Battery    
+- Biological    
+- Cardboard    
+- Clothes    
+- Glass    
+- Metal    
+- Paper    
+- Plastic    
+- Shoes    
+- Trash 
+
+---
+
+## Files in This Repository
+
