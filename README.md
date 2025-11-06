@@ -3,7 +3,7 @@
 ```markdown
 # 🗑️ Week 2 - Waste Classification using CNN
 
-## 📌 Project Description
+## Project Description
 This project uses a Convolutional Neural Network (CNN) to classify waste images into 10 different categories such as paper, plastic, metal, glass, trash, etc.  
 It is developed as part of the **Week 2 Milestone Project** for the AI & Data Science Virtual Internship.
 
@@ -76,19 +76,19 @@ pip install -r requirements.txt
 2. Extract it into a folder named `dataset/`
 3. Open `model.ipynb` in Jupyter Notebook / Google Colab
 4. Run all cells to:
-   ✅ Load dataset
-   ✅ Train CNN model
-   ✅ Evaluate model accuracy
+    Load dataset
+    Train CNN model
+    Evaluate model accuracy
 
 ---
 
 ##  Improvements Done by Me (as required by Week 2 task)
 
-✅ Data augmentation applied
-✅ Used train-test split for fair evaluation
-✅ Added dropout to reduce overfitting
-✅ Used Google Drive dataset link due to GitHub upload limit
-✅ Organized project into clean folder structure
+ Data augmentation applied
+ Used train-test split for fair evaluation
+ Added dropout to reduce overfitting
+ Used Google Drive dataset link due to GitHub upload limit
+ Organized project into clean folder structure
 
 ---
 
