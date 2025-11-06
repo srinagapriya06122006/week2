@@ -85,10 +85,11 @@ model.summary()
 
 
 #Train the Model
+EPOCHS = 10   # you can change this value (10, 20, 30 etc.)
 history = model.fit(
     train_ds,
     validation_data=val_ds,
-    epochs=10
+    epochs=EPOCHS
 )
 
 
@@ -151,5 +152,5 @@ print("Confidence:", confidence, "%")
 
 
 #Save the Model (after training)
-model.save("waste_classifier_model.h5")
-print("Model saved ")
+model.save("waste_classifier_model.keras")
+print("Model saved as .keras format!")
