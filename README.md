@@ -1,15 +1,13 @@
-## FINAL `README.md` 
-
-```markdown
 # 🗑️ Week 2 - Waste Classification using CNN
 
-## Project Description
-This project uses a Convolutional Neural Network (CNN) to classify waste images into 10 different categories such as paper, plastic, metal, glass, trash, etc.  
-It is developed as part of the **Week 2 Milestone Project** for the AI & Data Science Virtual Internship.
+## 📌 Project Description  
+This project implements a **Convolutional Neural Network (CNN)** to classify images of waste into **10 categories** such as plastic, paper, metal, glass, trash, and more.  
+It is developed as part of the **Week 2 Milestone Project** of the **AI & Data Science Virtual Internship** offered by *Edunet Foundation* in collaboration with *IBM SkillsBuild*.
 
 ---
 
-## Repository Contents
+## 📁 Repository Structure
+
 ```
 
 week2/
@@ -21,14 +19,14 @@ week2/
 
 ---
 
-## 📊 Dataset
+## 📊 Dataset  
 The dataset is too large to upload directly to GitHub (25MB file limit).  
 You can download it from Google Drive:
 
 🔗 **Dataset Link:**  
-https://drive.google.com/drive/folders/1z1RqDCJqJKV7gwgizsiVNvrKkwb589F2?usp=sharing
+https://drive.google.com/drive/folders/1z1RqDCJqJKV7gwgizsiVNvrKkwb589F2?usp=sharing  
 
-After downloading, extract it like:
+Once downloaded, extract it like:
 
 ```
 
@@ -47,22 +45,23 @@ dataset/
 
 ---
 
-##  Model Summary
-| Property | Value |
-|----------|--------|
-| Framework | TensorFlow / Keras |
-| Model Type | Sequential CNN |
-| Classes | 10 |
-| Loss Function | Categorical Crossentropy |
-| Optimizer | Adam |
-| Input Size | 224x224 (can be modified) |
-| Final Accuracy | (Update after training) |
+## 🧠 Model Summary
+
+| Property         | Value                    |
+|------------------|--------------------------|
+| Framework        | TensorFlow / Keras       |
+| Model Type       | Sequential CNN           |
+| Classes          | 10                       |
+| Loss Function    | Categorical Crossentropy |
+| Optimizer        | Adam                     |
+| Input Size       | 224x224                  |
+| Final Accuracy   | *To be updated after training* |
 
 ---
 
 ## 🔧 Installation
 
-Install dependencies using:
+Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
@@ -70,42 +69,45 @@ pip install -r requirements.txt
 
 ---
 
-##  How to Run
+## ▶️ How to Run
 
-1. Download dataset from the link above
-2. Extract it into a folder named `dataset/`
-3. Open `model.ipynb` in Jupyter Notebook / Google Colab
+1. Download the dataset from the link above.
+2. Extract it into a folder named `dataset/`.
+3. Open the `model.ipynb` notebook in Jupyter Notebook or Google Colab.
 4. Run all cells to:
-    Load dataset
-    Train CNN model
-    Evaluate model accuracy
+
+   * ✅ Load the dataset
+   * ✅ Train the CNN model
+   * ✅ Evaluate model accuracy
 
 ---
 
-##  Improvements Done by Me (as required by Week 2 task)
+## 🚀 Improvements Done (as per Week 2 Task)
 
- Data augmentation applied
- Used train-test split for fair evaluation
- Added dropout to reduce overfitting
- Used Google Drive dataset link due to GitHub upload limit
- Organized project into clean folder structure
+* ✅ Applied data augmentation
+* ✅ Used train-test split for fair model evaluation
+* ✅ Introduced dropout layers to reduce overfitting
+* ✅ Hosted dataset externally due to GitHub file size limits
+* ✅ Clean and organized project structure
 
 ---
 
-## Output Example
+## 📸 Output Example
 
-(Add screenshot later)
+*(Add screenshot later)*
 
 Example:
 
 ```
 Test Accuracy = 91.42%
-Input: plastic bottle → Output: Plastic 
+
+Input: plastic bottle  
+Predicted Output: Plastic
 ```
 
 ---
 
-##  Author
+## 👩‍💻 Author
 
 **Srinagapriya**
 AI & Data Science Virtual Internship – Week 2 Submission
@@ -113,3 +115,7 @@ Edunet Foundation | IBM SkillsBuild
 
 ```
 
+---
+
+Let me know if you want me to personalize it further or generate a PDF version of this README!
+```
