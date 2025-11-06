@@ -1,12 +1,12 @@
-# 🗑️ Week 2 - Waste Classification using CNN
+# Week 2 - Waste Classification using CNN
 
-## 📌 Project Description  
+##  Project Description  
 This project implements a **Convolutional Neural Network (CNN)** to classify images of waste into **10 categories** such as plastic, paper, metal, glass, trash, and more.  
 It is developed as part of the **Week 2 Milestone Project** of the **AI & Data Science Virtual Internship** offered by *Edunet Foundation* in collaboration with *IBM SkillsBuild*.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 
@@ -19,11 +19,11 @@ week2/
 
 ---
 
-## 📊 Dataset  
+##  Dataset  
 The dataset is too large to upload directly to GitHub (25MB file limit).  
 You can download it from Google Drive:
 
-🔗 **Dataset Link:**  
+ **Dataset Link:**  
 https://drive.google.com/drive/folders/1z1RqDCJqJKV7gwgizsiVNvrKkwb589F2?usp=sharing  
 
 Once downloaded, extract it like:
@@ -45,7 +45,7 @@ dataset/
 
 ---
 
-## 🧠 Model Summary
+## Model Summary
 
 | Property         | Value                    |
 |------------------|--------------------------|
@@ -59,7 +59,7 @@ dataset/
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 Install all dependencies using:
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Download the dataset from the link above.
 2. Extract it into a folder named `dataset/`.
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Improvements Done (as per Week 2 Task)
+##  Improvements Done (as per Week 2 Task)
 
 * ✅ Applied data augmentation
 * ✅ Used train-test split for fair model evaluation
@@ -107,7 +107,7 @@ Predicted Output: Plastic
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Srinagapriya**
 AI & Data Science Virtual Internship – Week 2 Submission
